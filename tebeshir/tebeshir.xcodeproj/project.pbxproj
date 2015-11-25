@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B715D56C1B2154FD00F99F8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715D56B1B2154FD00F99F8A /* HomeViewController.swift */; };
+		B7569E461B20540B00863629 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569E451B20540B00863629 /* FBSDKLoginKit.framework */; };
+		B7569E481B20542C00863629 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569E471B20542C00863629 /* Bolts.framework */; };
+		B7569E4A1B20544100863629 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569E491B20544100863629 /* FBSDKCoreKit.framework */; };
+		B7569E4C1B2058AF00863629 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569E4B1B2058AF00863629 /* FBSDKShareKit.framework */; };
+		B77C5DEE1B32D44100AC63F2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C5DED1B32D44100AC63F2 /* Student.swift */; };
+		B7C653181B35F7470092686B /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C653171B35F7470092686B /* Connect.swift */; };
+		B7C6531B1B3626570092686B /* FacebookConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6531A1B3626570092686B /* FacebookConnect.swift */; };
+		B7CF8C2F1B03092F009BB9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF8C2E1B03092F009BB9D2 /* AppDelegate.swift */; };
+		B7CF8C311B03092F009BB9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF8C301B03092F009BB9D2 /* ViewController.swift */; };
+		B7CF8C341B03092F009BB9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CF8C321B03092F009BB9D2 /* Main.storyboard */; };
+		B7CF8C361B030930009BB9D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CF8C351B030930009BB9D2 /* Images.xcassets */; };
+		B7CF8C391B030930009BB9D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CF8C371B030930009BB9D2 /* LaunchScreen.xib */; };
+		B7CF8C451B030930009BB9D2 /* tebeshirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF8C441B030930009BB9D2 /* tebeshirTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7CF8C3F1B030930009BB9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CF8C211B03092F009BB9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CF8C281B03092F009BB9D2;
+			remoteInfo = tebeshir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B715D56B1B2154FD00F99F8A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B7569E441B2052F000863629 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		B7569E451B20540B00863629 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B7569E471B20542C00863629 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		B7569E491B20544100863629 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B7569E4B1B2058AF00863629 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		B77C5DED1B32D44100AC63F2 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		B7C653171B35F7470092686B /* Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
+		B7C6531A1B3626570092686B /* FacebookConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookConnect.swift; sourceTree = "<group>"; };
+		B7CF8C291B03092F009BB9D2 /* tebeshir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tebeshir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CF8C2D1B03092F009BB9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CF8C2E1B03092F009BB9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7CF8C301B03092F009BB9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7CF8C331B03092F009BB9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7CF8C351B030930009BB9D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7CF8C381B030930009BB9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7CF8C3E1B030930009BB9D2 /* tebeshirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tebeshirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CF8C431B030930009BB9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CF8C441B030930009BB9D2 /* tebeshirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tebeshirTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CF8C261B03092F009BB9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7569E4C1B2058AF00863629 /* FBSDKShareKit.framework in Frameworks */,
+				B7569E461B20540B00863629 /* FBSDKLoginKit.framework in Frameworks */,
+				B7569E481B20542C00863629 /* Bolts.framework in Frameworks */,
+				B7569E4A1B20544100863629 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF8C3B1B030930009BB9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7762D5C1B29642F00F7B267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7569E4B1B2058AF00863629 /* FBSDKShareKit.framework */,
+				B7569E491B20544100863629 /* FBSDKCoreKit.framework */,
+				B7569E471B20542C00863629 /* Bolts.framework */,
+				B7569E451B20540B00863629 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C653191B3626350092686B /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6531A1B3626570092686B /* FacebookConnect.swift */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		B7CF8C201B03092F009BB9D2 = {
+			isa = PBXGroup;
+			children = (
+				B7762D5C1B29642F00F7B267 /* Frameworks */,
+				B7CF8C2B1B03092F009BB9D2 /* tebeshir */,
+				B7CF8C411B030930009BB9D2 /* tebeshirTests */,
+				B7CF8C2A1B03092F009BB9D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CF8C2A1B03092F009BB9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF8C291B03092F009BB9D2 /* tebeshir.app */,
+				B7CF8C3E1B030930009BB9D2 /* tebeshirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CF8C2B1B03092F009BB9D2 /* tebeshir */ = {
+			isa = PBXGroup;
+			children = (
+				B7C653191B3626350092686B /* Facebook */,
+				B7CF8C2E1B03092F009BB9D2 /* AppDelegate.swift */,
+				B7CF8C301B03092F009BB9D2 /* ViewController.swift */,
+				B715D56B1B2154FD00F99F8A /* HomeViewController.swift */,
+				B7569E441B2052F000863629 /* Bridge-Header.h */,
+				B7CF8C321B03092F009BB9D2 /* Main.storyboard */,
+				B7CF8C351B030930009BB9D2 /* Images.xcassets */,
+				B7CF8C371B030930009BB9D2 /* LaunchScreen.xib */,
+				B7CF8C2C1B03092F009BB9D2 /* Supporting Files */,
+				B77C5DED1B32D44100AC63F2 /* Student.swift */,
+				B7C653171B35F7470092686B /* Connect.swift */,
+			);
+			path = tebeshir;
+			sourceTree = "<group>";
+		};
+		B7CF8C2C1B03092F009BB9D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF8C2D1B03092F009BB9D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CF8C411B030930009BB9D2 /* tebeshirTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF8C441B030930009BB9D2 /* tebeshirTests.swift */,
+				B7CF8C421B030930009BB9D2 /* Supporting Files */,
+			);
+			path = tebeshirTests;
+			sourceTree = "<group>";
+		};
+		B7CF8C421B030930009BB9D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF8C431B030930009BB9D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CF8C281B03092F009BB9D2 /* tebeshir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CF8C481B030930009BB9D2 /* Build configuration list for PBXNativeTarget "tebeshir" */;
+			buildPhases = (
+				B7CF8C251B03092F009BB9D2 /* Sources */,
+				B7CF8C261B03092F009BB9D2 /* Frameworks */,
+				B7CF8C271B03092F009BB9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tebeshir;
+			productName = tebeshir;
+			productReference = B7CF8C291B03092F009BB9D2 /* tebeshir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7CF8C3D1B030930009BB9D2 /* tebeshirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CF8C4B1B030930009BB9D2 /* Build configuration list for PBXNativeTarget "tebeshirTests" */;
+			buildPhases = (
+				B7CF8C3A1B030930009BB9D2 /* Sources */,
+				B7CF8C3B1B030930009BB9D2 /* Frameworks */,
+				B7CF8C3C1B030930009BB9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CF8C401B030930009BB9D2 /* PBXTargetDependency */,
+			);
+			name = tebeshirTests;
+			productName = tebeshirTests;
+			productReference = B7CF8C3E1B030930009BB9D2 /* tebeshirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CF8C211B03092F009BB9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = basetech;
+				TargetAttributes = {
+					B7CF8C281B03092F009BB9D2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B7CF8C3D1B030930009BB9D2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B7CF8C281B03092F009BB9D2;
+					};
+				};
+			};
+			buildConfigurationList = B7CF8C241B03092F009BB9D2 /* Build configuration list for PBXProject "tebeshir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7CF8C201B03092F009BB9D2;
+			productRefGroup = B7CF8C2A1B03092F009BB9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CF8C281B03092F009BB9D2 /* tebeshir */,
+				B7CF8C3D1B030930009BB9D2 /* tebeshirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CF8C271B03092F009BB9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF8C341B03092F009BB9D2 /* Main.storyboard in Resources */,
+				B7CF8C391B030930009BB9D2 /* LaunchScreen.xib in Resources */,
+				B7CF8C361B030930009BB9D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF8C3C1B030930009BB9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CF8C251B03092F009BB9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF8C311B03092F009BB9D2 /* ViewController.swift in Sources */,
+				B7CF8C2F1B03092F009BB9D2 /* AppDelegate.swift in Sources */,
+				B77C5DEE1B32D44100AC63F2 /* Student.swift in Sources */,
+				B715D56C1B2154FD00F99F8A /* HomeViewController.swift in Sources */,
+				B7C6531B1B3626570092686B /* FacebookConnect.swift in Sources */,
+				B7C653181B35F7470092686B /* Connect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF8C3A1B030930009BB9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF8C451B030930009BB9D2 /* tebeshirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7CF8C401B030930009BB9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7CF8C281B03092F009BB9D2 /* tebeshir */;
+			targetProxy = B7CF8C3F1B030930009BB9D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7CF8C321B03092F009BB9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CF8C331B03092F009BB9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7CF8C371B030930009BB9D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CF8C381B030930009BB9D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CF8C461B030930009BB9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7CF8C471B030930009BB9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CF8C491B030930009BB9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yeko/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = tebeshir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basetech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tebeshir/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		B7CF8C4A1B030930009BB9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yeko/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = tebeshir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basetech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tebeshir/Bridge-Header.h";
+			};
+			name = Release;
+		};
+		B7CF8C4C1B030930009BB9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tebeshirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basetech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tebeshir.app/tebeshir";
+			};
+			name = Debug;
+		};
+		B7CF8C4D1B030930009BB9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tebeshirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basetech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tebeshir.app/tebeshir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CF8C241B03092F009BB9D2 /* Build configuration list for PBXProject "tebeshir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF8C461B030930009BB9D2 /* Debug */,
+				B7CF8C471B030930009BB9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CF8C481B030930009BB9D2 /* Build configuration list for PBXNativeTarget "tebeshir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF8C491B030930009BB9D2 /* Debug */,
+				B7CF8C4A1B030930009BB9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CF8C4B1B030930009BB9D2 /* Build configuration list for PBXNativeTarget "tebeshirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF8C4C1B030930009BB9D2 /* Debug */,
+				B7CF8C4D1B030930009BB9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CF8C211B03092F009BB9D2 /* Project object */;
+}
